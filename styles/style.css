@@ -1,0 +1,134 @@
+.container {
+    padding: 2rem 20rem;
+}
+
+/* This section is for alphabet styles */
+.header-alpha {
+    display: flex;
+    background: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.header-alpha::-webkit-scrollbar {
+    width: 0.2rem;
+    height: 0.2rem;
+  }
+  
+  /* Track */
+  .header-alpha::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  .header-alpha::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  .header-alpha::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.single-alphabet {
+    padding-top: 3rem;
+}
+
+.header-alpha-child {
+    padding: 0 1rem;
+    border-left: 1px solid #999;
+}
+
+.header-alpha-child:hover {
+    color: #8dc647;
+}
+
+/*-----------END---------------*/
+
+/*----------------serach section----------*/
+
+.search-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.search-section input {
+    width: 50%;
+    padding: 0.8rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.3rem;
+}
+
+.search-section button {
+    padding: 0.8rem;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.3rem;
+}
+
+/*-----------END---------------*/
+
+/* This section is for KEYWORDS indexjs styles */
+.alphabet-section {
+    padding: 2rem 0;
+}
+
+.keyword-section {
+    padding-top: 1rem;
+    line-height: 1.75;
+    font-size: 0.9rem;
+}
+
+.keyword-section-inner {
+    padding: 0.1rem;
+}
+
+.keyword-section-inner:hover {
+    background: rgba(136, 136, 136, 0.1);
+}
+
+.keyword-title {
+    font-weight: 500;
+}
+
+
+/*---------------Mobile----------------*/
+@media screen and (max-width: 720px) {
+    .container {
+        padding: 0 2rem;
+    }
+
+    .alphabet-section {
+        padding: 0;
+    }
+
+    .search-section input {
+        width: 100%;
+        padding: 0.8rem;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 0.3rem;
+    }
+}
+
+
+/*------------------- MOVE TO TOP BTN-----------------*/
+.container-top {
+    position: sticky;
+    background: #fff;
+    bottom: 2rem;
+    right: 80%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.3rem;
+    width: 3rem;
+    height: 2rem;
+}
+
+.top-icon {
+    padding: 0.5rem 1rem 0 0;
+    text-align: center;
+}
